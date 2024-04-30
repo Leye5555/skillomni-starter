@@ -1,9 +1,17 @@
 "use client";
 import React from "react";
-import { ListItemButton, ListItemText, Stack, Typography } from "@mui/material";
+import {
+  Link,
+  ListItemButton,
+  ListItemText,
+  Stack,
+  Typography,
+} from "@mui/material";
 import List from "@mui/material/List";
 import styles from "./Header.module.css";
 import Image from "next/image";
+import { RouterLink } from "@/routes/components";
+import { paths } from "@/routes/paths";
 
 const Header = () => {
   return (
@@ -17,7 +25,11 @@ const Header = () => {
         />
       </div>
       <ul className={styles.header_nav}>
-        <li>Services</li>
+        <li>
+          <Link component={RouterLink} href={paths.home.services}>
+            Services
+          </Link>
+        </li>
         <li>Projects</li>
         <li>Contact</li>
       </ul>

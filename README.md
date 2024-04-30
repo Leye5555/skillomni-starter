@@ -20,7 +20,7 @@
     width: "100%",
     minHeight: "450px",
     borderRadius: "50%",
-    backgroundColor: theme.backgroundColor,
+    backgroundColor: theme.backgroundColor, // it is not compulsory to use theme but it is best for cases when we want to able to dynamically change our css based on a theme e.g dark mode
   }));
   ```
 
@@ -33,3 +33,9 @@
     </MyMUIDiv>
   );
   ```
+
+### Implementation Approaches Video
+
+- hint : click download if it doesn't play
+
+[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](https://drive.google.com/file/d/1HVKZ2EYjkMOqwJ1x8WAaN2RFaWu_GOP-/view?usp=sharing)

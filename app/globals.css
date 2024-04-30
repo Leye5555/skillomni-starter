@@ -25,3 +25,8 @@ body {
     text-wrap: balance;
   }
 }
+
+/* react slick */
+.slick-track {
+  display: flex;
+}

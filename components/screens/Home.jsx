@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../Header";
 import Hero from "../Hero";
 import Portfolio from "../Portfolio";
-import Carousel from "../carousel";
+import ItemList from "../ItemList";
 
 const HomePage = () => {
   return (
@@ -10,6 +10,7 @@ const HomePage = () => {
       <Header />
       <Hero />
       <Portfolio />
+      <ItemList />
     </>
   );
 };
